@@ -1,0 +1,205 @@
+body{
+    background:linear-gradient(30deg,#00e8bf,#fff);
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#4F4F4F;
+}
+
+/* banner */
+.banner{
+    height: 50vmin;
+    background: url("../image/img3.jpg") center center / 100% auto;
+    background-repeat: no-repeat;
+    
+
+    /* background:linear-gradient(100deg, transparent 45%, transparent 45%) 
+                center center / 100% 100%,
+                url("../image/img9.jpg")
+                center center / 100% auto; */
+
+                /* url("https://picsum.photos/1200/600?random=10") */
+    
+}
+
+/* marquee */
+.marquee{
+    height: 12vmin;
+    /* margin: 0 auto; */
+    /* overflow: hidden;  */
+    position: relative;
+    /* background: #000; */
+
+}
+
+.marquee > ul{
+    padding-left: 0;
+    margin:auto;
+    display: flex;
+    list-style-type: none;
+    animation: marqee 10s linear infinite;
+    position: absolute;
+
+}
+
+.marquee > ul > li{
+    white-space: nowrap;
+    margin-right: 2em;
+    color: greenyellow;
+    font-size: 8vmin;
+}
+
+@keyframes marqee {
+    0% {
+     left: 100%;
+     transform: translateX(0%);
+    }
+   
+    100% {
+     left: 0;
+     transform: translateX(-100%);
+    }
+   }
+
+
+/* mug shot */
+.mug-shot-img img{
+    width:20vmax;
+    border-radius: 30%;
+}
+
+.mug-shot-txt{
+    font-size: 1.5vmax;
+    line-height: 4vmax;
+    font-weight: 100;
+}
+
+.mug-shot-txt img{
+    width:5vmin;
+    right:0;
+    animation: medal-animation infinite 2s linear both;
+}
+
+@keyframes medal-animation {
+    0% {transform:rotate(45deg)}
+    50% {transform:rotate(-45deg)}
+    100% {transform:rotate(45deg)}
+    
+}
+
+/* slogan */
+.slogan{
+    display: flex;
+    justify-content: center;
+    font-size: 6vmin;
+}
+
+.slogan span{
+    background: linear-gradient(30deg, hsl(196, 77%, 44%)	,#ffffff);
+    border-radius: 30%;
+    font-weight: 300;
+    color:#fff;
+}
+
+.slogan img{
+    opacity: 0.7;
+    width:5vmin;
+    height:5vmin;
+    align-self:flex-end;
+    position:relative;
+    left:-4vmin;
+    bottom:-10px;
+    animation: circle 1s infinite linear;
+}
+
+@keyframes circle {
+    0% {opacity: 0;}
+    /* 50% {transform:scale(1.5)} */
+    100% {transform:scale(1.5)}
+}
+
+
+
+/* navbar */
+.navbar .items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 200px;
+    background-color: aquamarine;
+}
+
+.navbar .items p{
+    font-size: 1.2rem;
+    margin:auto;
+    
+}
+
+
+.navbar .col-3:hover{
+    color:red;
+    transform:translateY(-15px);  
+}
+
+
+
+
+
+/* video */
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video video{
+    width:60vw;
+    height:auto;
+}
+
+/* content  */
+.content-photo{
+
+}
+
+.content-text{
+
+}
+
+.content-text h5{
+    font-size:5vmin;
+    font-weight:400;
+
+}
+
+.content-text p{
+    font-size:3vmin;
+    font-weight:100;
+
+}
+
+.content-photo img{
+    width:30vw;
+    height: auto;
+    object-fit: cover;
+    margin:10px;
+    /* border-radius: 50%; */
+    border-left:solid 2vmin rgb(6, 158, 13);
+}
+
+
+
+
+/* footer */
+.footer{
+    height:30vh;
+}
+
+.footer-item img{
+    width:10%;
+    height:auto;
+}
+
+
+@keyframes star_rotate{
+    /* 0% {transform:rotate(0deg)} */
+    100%{transform:rotate(360deg)}
+}
+
