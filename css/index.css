@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(30deg,#00e8bf,#fff);
+    background:linear-gradient(30deg,#3a67d9,#fff);
     font-family: 'Noto Sans TC', sans-serif;
     color:#4F4F4F;
 }
@@ -44,7 +44,7 @@ body{
     white-space: nowrap;
     margin-right: 2em;
     color: #0072e3;
-    font-size: 8vmin;
+    font-size: 10vmin;
 }
 
 @keyframes marqee {
@@ -67,7 +67,7 @@ body{
 }
 
 .mug-shot-txt{
-    font-size: 1.5vmax;
+    font-size: 4vmin;
     line-height: 4vmax;
     font-weight: 300;
 }
@@ -90,19 +90,19 @@ body{
     font-size: 8vmin;
 }
 
-.slogan1 span{
+/* .slogan1 span{
     background: linear-gradient(30deg, hsl(196, 77%, 44%)	,#ffffff);
     border-radius: 30%;
     font-weight: 300;
     color:#fff;
-}
+} */
 
 .slogan1 img{
     opacity: 0.7;
     width:5vmin;
     height:5vmin;
     align-self:flex-end;
-    position:relative;
+    /* position:relative; */
     left:-4vmin;
     bottom:-10px;
     animation: circle 3s infinite linear;
@@ -113,7 +113,7 @@ body{
     width:5vmin;
     height:5vmin;
     align-self:flex-end;
-    position:relative;
+    /* position:relative; */
     left:-4vmin;
     bottom:-10px;
     animation: circle 3s 1s infinite linear;
@@ -124,7 +124,7 @@ body{
     width:5vmin;
     height:5vmin;
     align-self:flex-end;
-    position:relative;
+    /* position:relative; */
     left:-4vmin;
     bottom:-10px;
     animation: circle 3s 2s infinite linear;
@@ -192,8 +192,8 @@ body{
 }
 
 .content-text p{
-    font-size:3vmin;
-    font-weight:100;
+    font-size:4vmin;
+    font-weight:300;
     text-align: start;
 
 }
@@ -219,13 +219,14 @@ body{
 
 
 
+
 /* footer */
 .footer{
     height:30vh;
 }
 
 .footer-item img{
-    width:10vmin ;
+    width:25vmin ;
     height:auto;
 }
 
